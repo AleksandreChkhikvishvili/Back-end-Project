@@ -5,7 +5,7 @@ const countrySchema = new mongoose.Schema({
     capital: String,
     region: String,
     population: Number,
-    flag: String,
+    flag_Emoji: String,
 })
 
 export default mongoose.model('Country', countrySchema)
