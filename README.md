@@ -19,3 +19,7 @@ node server.js
 You can input this to the browser to see the information
 
 http://localhost:3000/countries
+
+
+
+Working to add country FLAG
