@@ -14,7 +14,7 @@ node seed/seed.js
 
 This will run the seed file and create a local database
 
-node server.js
+nodemon server.js
 
 You can input this to the browser to see the information
 
