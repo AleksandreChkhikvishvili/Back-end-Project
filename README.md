@@ -10,7 +10,7 @@ npm i
 
 This code is to install the dependencies 
 
-node seed/data.js
+node seed/seed.js
 
 This will run the seed file and create a local database
 
