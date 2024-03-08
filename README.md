@@ -1,4 +1,4 @@
-This API provides information about countries(Name, Capital, Region, Population) this api was built with the data from https://restcountries.com/v3.1/all
+This API provides information about countries(Name, Capital, Region, Population, Flag, Languages) this api was built with the data from https://restcountries.com/v3.1/all
 
 HOW TO USE
 
@@ -21,5 +21,3 @@ You can input this to the browser to see the information
 http://localhost:3000/countries
 
 
-
-Working to add country FLAG
