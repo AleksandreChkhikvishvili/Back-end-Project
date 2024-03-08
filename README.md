@@ -1,4 +1,4 @@
-This API provides information about countries(Name, Capital, Region, Population, Flag, Languages) this api was built with the data from https://restcountries.com/v3.1/all
+This API provides information about countries(Name, Capital, Region, Population, Flags, Languages) this api was built with the data from https://restcountries.com/v3.1/all
 
 HOW TO USE
 
