@@ -17,8 +17,9 @@ app.use("/", Routes);
 db.on("connected", () => {
   console.clear();
   console.log(chalk.blue("Connected to MongoDB!"));
+  
+  app.listen(Port, () => {
+    console.log(chalk.magenta(`Express server running on port ${Port}`));
+  });
 });
 
-app.listen(Port, () => {
-  console.log(chalk.magenta(`Express server running on port ${Port}`));
-});
