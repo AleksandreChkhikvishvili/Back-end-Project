@@ -1,4 +1,4 @@
-
+This is the Image to the API information
 ![Alt text](<Screenshot from 2024-03-10 16-48-52.png>)
 
 
@@ -23,5 +23,10 @@ nodemon server.js
 You can input this to the browser to see the information
 
 http://localhost:3000/countries
+
+
+The project is full CRUD functionality VIEW,UPDATE,CREATE and DELETE, 
+to seach for the country by Id for example input:
+http://localhost:3000/countries/65eb80e4045df9663f0dbb2b
 
 
