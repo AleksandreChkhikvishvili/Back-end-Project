@@ -1,5 +1,5 @@
 
-
+![Alt text](<Screenshot from 2024-03-10 16-48-52.png>)
 
 
 This API provides information about countries(Name, Capital, Region, Population, Flags, Languages) this api was built with the data from https://restcountries.com/v3.1/all
