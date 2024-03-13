@@ -25,9 +25,21 @@ let countryData = data.map(item => {
   return country
 })
 
-Country
-  .deleteMany({})
-  .then(() => Country.create(countryData))
-  .then(() => console.log('done!'))
-  .then(() => db.close())
-  .catch(error => console.error('Error', error))
+// Country
+//   .deleteMany({})
+//   .then(() => Country.create(countryData))
+//   .then(() => console.log('done!'))
+//   .then(() => db.close())
+//   .catch(error => console.error('Error', error))
+
+async function seedData(){
+  await db.dropDatabase
+
+  await Country.create(countryData)
+
+  console.log("Countries Created!")
+
+  await db.close()
+}
+
+seedData()
